@@ -1,0 +1,28 @@
+{
+  "name": "center-import-meta-loader",
+  "version": "0.4.7",
+  "publishConfig": {
+    "access": "public"
+  },
+  "description": "Fork of Webpack configuration following open-wc recommendations",
+  "license": "MIT",
+  "author": "Center Health",
+  "homepage": "center.health",
+  "main": "import.meta.js",
+  "files": [
+    "*.js",
+    "src"
+  ],
+  "keywords": [
+    "webpack",
+    "meta-loader",
+    "import-meta"
+  ],
+  "devDependencies": {
+    "@babel/register": "^7.9.0",
+    "babel-preset-env": "^1.7.0",
+    "memory-fs": "^0.4.1",
+    "webpack": "^4.28.0"
+  },
+  "gitHead": "35604985451691e365a6412f7a16bf5c3a749b41"
+}
